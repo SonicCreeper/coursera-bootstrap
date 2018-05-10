@@ -1,0 +1,96 @@
+body {
+	padding: 50px 0px 0px 0px;
+	z-index: 0;
+}
+
+.navbar-inverse {
+	background-color: #512DA5;
+}
+
+.modal-content {
+	transition: all .2s ease-in-out
+}
+
+.modal-open {
+	padding-right: 0 !important;
+	overflow: scroll;
+}
+
+#reserveModal fieldset {
+	margin-top: .29rem;
+}
+
+.navbar-text .fa-sign-in {
+	color: rgba(255,255,255,.5);
+}
+
+.row-header {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.row-content {
+	margin: 0 auto;
+	padding: 50px 0 50px 0;
+	border-bottom: 1px ridge;
+	min-height: 300px;
+}
+
+.footer {
+	background-color: #D1C4E9;
+	margin: 0px auto;
+	padding: 20px 0 20px 0;
+}
+
+.jumbotron {
+	padding: 70px 30px 70px 30px;
+	margin: 0 auto;
+	background: #9575CD;
+	color: floralwhite;
+}
+
+.address {
+	font-size: 80%;
+	margin: 0;
+	color: #0f0f0f;
+}
+
+.tab-content {
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 10px;
+}
+
+#ver_switcher {
+	margin-top: -0.5rem;
+}
+
+.carousel {
+	background: #512DA8;
+}
+
+.carousel-item {
+	height: 300px;
+}
+
+.carousel-item img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 300px;
+}
+
+#carousel-button {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background-color: transparent;
+	border: none;
+	color: #fff;
+}
+
+#carousel-button:focus {
+	-webkit-box-shadow: none;
+            box-shadow: none;
+}
